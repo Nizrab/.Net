@@ -1,0 +1,8 @@
+#ignore folder named bin
+/bin
+#ignore folder namde obj
+/obj
+#ignore appsettings.json
+/appsettings.json
+#ignore appsettings.Development.json
+/appsettings.Development.json
