@@ -1,0 +1,8 @@
+#ignore folder named bin
+/Lab5/bin
+#ignore folder namde obj
+/Lab5/obj
+#ignore appsettings.json
+/Lab5/appsettings.json
+#ignore appsettings.Development.json
+/Lab5/appsettings.Development.json

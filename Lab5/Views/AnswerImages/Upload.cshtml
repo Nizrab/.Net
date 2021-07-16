@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Upload";
+}
+
+<h1>Upload</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Upload" enctype="multipart/form-data">
+            <div class="form-group">
+                <input type="radio" name="Question" value="computerimages">
+                <label for="computerimages">What will the computers look like in 20 years?</label><br />
+                <input type="radio" name="Question" value="earthimages" checked ="checked">
+                <label for="earthimages">What will the earth look like in 20 years?</label><br />
+                <div class="btn btn-sm float-left">
+                    <input name="answerImage" type="file">
+                </div>
+            </div>
+            <div class="form-group">
+                <button type="submit" name="Upload" class="btn btn-primary">Upload Now</button>
+            </div>
+        </form>
+</div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
