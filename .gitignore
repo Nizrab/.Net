@@ -1,0 +1,8 @@
+#ignore folder named bin
+/Lab6/bin
+#ignore folder namde obj
+/Lab6/obj
+#ignore appsettings.json
+/Lab6/appsettings.json
+#ignore appsettings.Development.json
+/Lab6/appsettings.Development.json
